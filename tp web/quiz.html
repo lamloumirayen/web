@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz HTML/CSS</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="quiz.js"></script>
+</head>
+<body>
+    <h1>Mon quiz : une ou plusieurs réponses sont possibles selon la question</h1>
+
+    <h3>Question 1 : Que signifie HTML ?</h3>
+    <input type="radio" name="x"><label>Hyper technologie mixed language</label><br>
+    <input type="radio" name="x"><label>Hyper TextMurquplanguage</label><br>
+    <input type="radio" name="x"><label>Hot TextMapping mixed language</label><br>
+
+    <h3>Question 2 : Quel est ou quels sont les schémas HTML ?</h3>
+    <input type="checkbox" name="x1"><label>< html >< body >< head>< /head>< /body>< /html></label><br>
+    <input type="checkbox" name="x1"><label>< html >< head>< /head>< body >< /body></label><br>
+    <input type="checkbox" name="x1"><label>< html >< body >< head>< /head>< /html>< /body></label><br>
+    <input type="checkbox" name="x1"><label>< html >< body >< /body>< /html></label><br>
+
+    <h3>Question 3 : Quel tag utiliser pour placer une image ?</h3>
+    <input type="radio" name="x2"><label>&lt;img src="" alt=""&gt;</label><br>
+    <input type="radio" name="x2"><label>&lt;img source="" alt=""&gt;</label><br>
+    <input type="radio" name="x2"><label>&lt;img href="" alt=""&gt;</label><br>
+
+    <h3>Question 4 : Comment définir un commentaire en CSS ?</h3>
+    <input type="checkbox" name="x3"><label>&lt;!--ceci est un commentaire--&gt;</label><br>
+    <input type="checkbox" name="x3"><label>/* Ceci est un commentaire */</label><br>
+    <input type="checkbox" name="x3"><label>/*/*Ceci est commentaire */</label><br>
+    <input type="checkbox" name="x3"><label>//ceci est commentaire</label><br>
+
+    <h3>Question 5 : Quelle est la règle de style pour la couleur d'arrière-plan ?</h3>
+    <input type="radio" name="x4"><label>background-color</label><br>
+    <input type="radio" name="x4"><label>color</label><br>
+    <input type="radio" name="x4"><label>bgcolor</label><br>
+
+    <h3>Question 6 : Quelles balises définissent un tableau ?</h3>
+    <input type="checkbox" name="x5"><label>&lt;table&gt;&lt;tr&gt;&lt;td&gt;</label><br>
+    <input type="checkbox" name="x5"><label>&lt;table&gt;&lt;head&gt;&lt;tfoot&gt;</label><br>
+    <input type="checkbox" name="x5"><label>&lt;table&gt;&lt;tr&gt;&lt;tt&gt;</label><br>
+    <input type="checkbox" name="x5"><label>&lt;table&gt;&lt;tr&gt;&lt;th&gt;</label><br>
+
+    <h3>Question 7 : Quelle couleur est représentée par #FFFFFF ?</h3>
+    <input type="radio" name="x6"><label>blanc</label><br>
+    <input type="radio" name="x6"><label>noir</label><br>
+
+    <h3>Question 8 : Quelle balise permet de mettre du texte en italique ?</h3>
+    <input type="checkbox" name="x7"><label>&lt;bold&gt;&lt;/bold&gt;</label><br>
+    <input type="checkbox" name="x7"><label>&lt;em&gt;&lt;/em&gt;</label><br>
+    <input type="checkbox" name="x7"><label>&lt;i&gt;&lt;/i&gt;</label><br>
+    <input type="checkbox" name="x7"><label>&lt;g&gt;&lt;/g&gt;</label><br>
+
+    <h3>Question 9 : Quel est le rôle de la balise titre ?</h3>
+    <input type="radio" name="x8"><label>Centrer un titre</label><br>
+    <input type="radio" name="x8"><label>Définir le titre du document</label><br>
+    <input type="radio" name="x8"><label>Écrire un titre grand</label><br>
+
+    <h3>Question 10 : Où peut-on placer le code CSS ?</h3>
+    <input type="checkbox" name="x9"><label>Dans la balise &lt;body&gt;</label><br>
+    <input type="checkbox" name="x9"><label>Dans la balise &lt;head&gt;</label><br>
+    <input type="checkbox" name="x9"><label>Dans un fichier externe utilisable pour plusieurs pages</label><br>
+
+    <br><br>
+    <button type="button" onclick="checkAnswers()">Vérifier</button>
+
+    
+</body>
+</html>
